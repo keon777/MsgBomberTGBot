@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     # The bot-token which you can get from @Botfather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1883025579:AAGg9H7ApQh_oNdDkIBAxp27-BP9nmz7lLk")
     # There is no measure to limit who can use this bot, so add userids of users authorized to use this bot
     AUTH_USERS = os.environ.get("AUTH_USERS", "")
     # Add numbers below who shouldn't be bombed ever
